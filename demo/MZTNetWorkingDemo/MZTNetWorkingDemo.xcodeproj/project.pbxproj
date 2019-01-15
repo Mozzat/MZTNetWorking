@@ -64,6 +64,7 @@
 		762B42B521EDD6AF001A9C07 /* HttpNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpNetworkManager.m; sourceTree = "<group>"; };
 		762B42B621EDD6AF001A9C07 /* ProgressHUDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUDView.h; sourceTree = "<group>"; };
 		762B42B721EDD6AF001A9C07 /* HttpNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpNetworkManager.h; sourceTree = "<group>"; };
+		762B42BA21EDDB2B001A9C07 /* inlineDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inlineDefine.h; sourceTree = "<group>"; };
 		9B1FC413051387575E424E0F /* libPods-MZTNetWorkingDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MZTNetWorkingDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A04F0FB200374D49216A2D9B /* libPods-MZTNetWorkingDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MZTNetWorkingDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E24C01E649D8F18A4A5CDFB0 /* Pods-MZTNetWorkingDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MZTNetWorkingDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MZTNetWorkingDemo/Pods-MZTNetWorkingDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -169,10 +170,11 @@
 		762B42B321EDD6AF001A9C07 /* MZTNetWorking */ = {
 			isa = PBXGroup;
 			children = (
-				762B42B421EDD6AF001A9C07 /* ProgressHUDView.m */,
+				762B42BA21EDDB2B001A9C07 /* inlineDefine.h */,
+				762B42B721EDD6AF001A9C07 /* HttpNetworkManager.h */,
 				762B42B521EDD6AF001A9C07 /* HttpNetworkManager.m */,
 				762B42B621EDD6AF001A9C07 /* ProgressHUDView.h */,
-				762B42B721EDD6AF001A9C07 /* HttpNetworkManager.h */,
+				762B42B421EDD6AF001A9C07 /* ProgressHUDView.m */,
 			);
 			path = MZTNetWorking;
 			sourceTree = "<group>";
