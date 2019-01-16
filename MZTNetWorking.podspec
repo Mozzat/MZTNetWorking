@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MZTNetWorking"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "基于afn的网络请求"
 
   # This description is used to generate tags and improve search results.
@@ -117,7 +117,7 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  # s.framework  = "UIKit","Foundation"
+  # s.framework  = "SomeFramework"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
   # s.library   = "iconv"
@@ -133,7 +133,8 @@ Pod::Spec.new do |s|
   # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
- s.dependency "ProgressHUD"
- s.dependency "AFNetworking"
+  # s.dependency "JSONKit", "~> 1.4"
+  s.dependency "ProgressHUD"
+  s.dependency "AFNetworking"
 
 end
